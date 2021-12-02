@@ -59,3 +59,46 @@
 #md = str(m // 10) + str(m % 10)
 #sd = str(s // 10) + str(s % 10)
 #print(h, md, sd, sep = ':')
+
+
+################################### 1.8 ####################################################
+
+
+#n = int(input())
+#print( n > 0)
+
+
+#n = int(input())
+#print((n % 2) == 0)
+
+
+#print(int(input()) % 6 == 0)
+
+
+#print(int(input()) % 9 != 0)
+
+
+#print((int(input()) % 10) == 2)
+
+
+#n, m = map(int, input().split())
+#print(n % 7 == 0 and m % 7 == 0)
+
+#!!!!!!!!!!!!!!!!           print(all([not int(i) % 7  for i in input().split()])) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+#a, b, c, = map(int, input().split())
+#print((a + b + c) // 3 == a)
+
+
+#print(*[(a + b + c) // 3 == a for a, b, c in [map(int, input().split())]])
+
+
+#print(int(input()) in range(6,20))
+
+
+#print(*[n == "awesome" or m == "awesome" for n, m in [map(str, input().split())]])
+
+#print(any(input() == 'awesome' for _ in '__'))
+
+
