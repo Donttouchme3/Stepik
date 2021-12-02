@@ -43,3 +43,19 @@
 #print(b + b1 + b2 + b3 + b4)
 
 
+#n = int(input())
+#print((n % 1440) // 60, n % 60)
+
+
+#n = int(input())
+#print((n % 2) + ((n + 1) % 2) * 2 + n)
+
+
+#n = int(input())
+#h = (n % 86400) // 3600
+#mx = n - h * 3600 
+#m = mx // 60
+#s = mx % 60
+#md = str(m // 10) + str(m % 10)
+#sd = str(s // 10) + str(s % 10)
+#print(h, md, sd, sep = ':')
