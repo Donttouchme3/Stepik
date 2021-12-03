@@ -102,3 +102,11 @@
 #print(any(input() == 'awesome' for _ in '__'))
 
 
+#print(*[((n + m + p) - m) // 2 == n for n, m, p in [map(int, input().split())]])
+
+
+#n = int(input())
+#print((n // 10 > 0) and (n // 10 < 10))
+
+
+#print(*[(c ** 2) == (a ** 2) + (b ** 2) or ((b ** 2) == (a ** 2) + (c ** 2)) or ((a ** 2) == (b ** 2) + (c ** 2)) for a, b, c in [map(int, input().split())]])
